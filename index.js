@@ -26,7 +26,5 @@ const interval = setInterval(function() {
     var diff = date_2.getTime() - age.getTime();
     document.getElementById("age").innerHTML=`Hi! I am catasaurus, a ${diff / 3.154e+10} year old person. I am passionate about programming and AI, and basically anything relating to that.
 
-    I am proficient in Python, C/C++, and Javascript. Generally I work on projects that involve Machine Learning, NLP, Data science, and sometimes some web development.
-    
-    <a href=https://github.com/catasaurus>Github</a>    <a href=>Gitlab>https://gitlab.com/catasaurus</a>`
+    I am proficient in Python, C/C++, and Javascript. Generally I work on projects that involve Machine Learning, NLP, Data science, and sometimes some web development.`
 }, 2000);
