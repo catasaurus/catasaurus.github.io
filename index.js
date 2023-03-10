@@ -7,7 +7,7 @@ window.onload = function() {
 }
 
 let count = 0;
-let colors = ["black", "red", "pink", "orange", "yellow", "white"];
+let colors = ["black", "#673147", "pink", "#E35335", "yellow", "white"];
 const interval = setInterval(function() {
     document.getElementById("age").style.color = "white";
     document.getElementById("main").style.background = colors[count];
@@ -19,4 +19,4 @@ const interval = setInterval(function() {
     } else {
         count = 0;
     };
-}, 1000);
+}, 2000);
