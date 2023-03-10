@@ -6,6 +6,8 @@ p {
     color: white;
     text-align: center;
     font-size: 20px;
+    line-height: 150%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .vertical-center {
