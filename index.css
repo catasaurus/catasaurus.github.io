@@ -13,4 +13,6 @@ p {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    margin-left: 20%;
+    margin-right: 20%;
 }
