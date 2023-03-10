@@ -8,12 +8,11 @@ window.onload = function() {
 
 let count = 0;
 let colors = ["black", "#673147", "pink", "#E35335", "yellow", "white"];
-let els = document.querySelectorAll('p');
 const interval = setInterval(function() {
-    els.forEach((x, i) => x.style.color = "white")
+    document.getElementById("age").style.color = "white";
     document.getElementById("main").style.background = colors[count];
     if (colors[count] == "yellow" || colors[count] == "white") {
-        els.forEach((x, i) => x.style.color = "black")
+        document.getElementById("age").style.color = "black"
     }
     if (count < 5) {
         count += 1;
