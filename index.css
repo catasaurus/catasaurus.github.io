@@ -5,6 +5,7 @@ body {
 p {
     color: white;
     text-align: center;
+    font-size: 25;
 }
 
 .vertical-center {
