@@ -10,6 +10,9 @@ let count = 0;
 let colors = ["black", "red", "pink", "orange", "yellow", "white"];
 const interval = setInterval(function() {
     document.getElementById("main").style.background = colors[count];
+    if (colors[count] == "yellow" || colors[count] == "white") {
+        document.getElementById("age").style.color = "black"
+    }
     if (count < 5) {
         count += 1;
     } else {
